@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Jim",
+    "lastName": "Halpert",
+    "age": 38,
+    "socialSecurityNumber": "123",
+    "shift": "Morning",
+    "email": "Jim@gmail.com"
+  },
+  {
+    "id": 1,
+    "name": "Michael",
+    "lastName": "Scott",
+    "age": 56,
+    "socialSecurityNumber": "233",
+    "shift": "Night",
+    "email": "Michael@gmail.com"
+  },
+  {
+    "id": 1,
+    "name": "Pam",
+    "lastName": "Beesley",
+    "age": 36,
+    "socialSecurityNumber": "333",
+    "shift": "Night",
+    "email": "Pam@gmail.com"
+  },
+  {
+    "id": 1,
+    "name": "Dwight",
+    "lastName": "Schrute",
+    "age": 45,
+    "socialSecurityNumber": "433",
+    "shift": "Morning",
+    "email": "Dwight@gmail.com"
+  },
+  {
+    "id": 1,
+    "name": "Erin",
+    "lastName": "Hannon",
+    "age": 35,
+    "socialSecurityNumber": "533",
+    "shift": "Evening",
+    "email": "Erin@gmail.com"
+  }
+]
