@@ -20,7 +20,7 @@ public class UsersUtils {
     static boolean systemIsRunning = true;
 
     public static void runner() throws IOException, InterruptedException {
-        // intro();
+         intro();
 
         while (systemIsRunning) {
             System.out.println("\nPLEASE CHOOSE AN OPTION");

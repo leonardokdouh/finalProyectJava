@@ -12,8 +12,6 @@ public class ProductGenericServices {
 
     private List<GamingProducts> listOfGames = gb.gamesLoader();
 
-    Scanner scanner = new Scanner(System.in);
-
     public void add(GamingProducts item) {
         listOfGames.add(item);
     }
@@ -25,7 +23,6 @@ public class ProductGenericServices {
 
     public Integer getGamePosition(String gameName) {
         int position = 0;
-
         for (int i = 0; i < listOfGames.size(); i++) {
             if (listOfGames.get(i).getName().equalsIgnoreCase(gameName)) {
                 position = i;
