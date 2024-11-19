@@ -44,6 +44,7 @@ public class GamesBuilder {
 
         GamingProducts newGame = new GamingProducts(id, console, name, price, days);
 
+
         return newGame;
     }
 
@@ -69,7 +70,9 @@ public class GamesBuilder {
         String answer = null;
         System.out.println("Do you want to delete a Game? Please write the name\n");
         answer = scanner.nextLine();
+
         return answer;
+
     }
 
     public String  updateGameIndex() {
@@ -102,8 +105,8 @@ public class GamesBuilder {
             console = GamingConsoles.XBOX;
         }
 
-        GamingProducts newGame = new GamingProducts(id, console, name, price, days);
-        return newGame;
+
+        return new GamingProducts(id, console, name, price, days);
     }
 
 

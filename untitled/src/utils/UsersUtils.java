@@ -47,7 +47,7 @@ public class UsersUtils {
             }
         }
         System.out.println("Closing the program..");
-        scanner.close();
+
     }
 
 
